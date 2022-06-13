@@ -1,0 +1,100 @@
+@charset 'utf-8';
+ 
+@font-face{
+	font-family: 'godfather';
+	src: url('font/corleone.ttf');
+}
+
+@font-face{
+	font-family: 'godfather2';
+	src: url('font/corleonedue.ttf');
+}
+
+body{
+	width: auto;
+	padding: 10px 10px;
+	color: white;
+	background-color: #0d0d0d;
+	font-family: 'godfather2', sans-serif; 
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing: 4px;
+}
+
+header {
+	padding: 10px 0;
+	height: 100px;
+	text-align: center;
+}
+
+header h1 {
+	position: relative;
+	font-family: 'godfather', sans-serif;
+	font-size: 90px;	
+}
+.tela-inicial {
+	padding: 10px 0;
+}
+
+main .msg-inicial {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.tela-inicial p{
+	text-align: center;
+}
+
+main .botao-iniciar {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 40px;
+	font-size: 40px;
+	transition: 1s all;
+	cursor: pointer;
+	display: inline;
+	color: #1d3cdb;
+}
+
+
+footer {
+	top: 200px;
+	width: auto;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #333;
+}
+
+.rodape {
+	padding: 10px 0;
+	margin-top: 100px;
+}
+
+footer .info-rodape {
+	padding-right: 50px;
+	display: inline;
+	transition: 1s all;
+}
+
+footer .links {
+	padding-left: 50px;
+	display: inline;
+}
+
+.links .link {
+	display: inline;
+	text-decoration: none;
+}
+
+.link a {
+	display: inline;
+	color: #333;
+	text-decoration: none;
+	transition: 1s all;
+	color: #1d3cdb;
+}
+

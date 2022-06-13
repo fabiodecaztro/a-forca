@@ -1,0 +1,124 @@
+@media screen and (max-width: 769px){
+	body {
+		width: 748px;
+		padding: 10px 10px;
+	}
+	
+	.tela-inicial .p-iniciar {
+		padding-top: 50px;
+	}
+
+	.p-iniciar .botao-iniciar {
+		color: #1d3cdb;
+	}
+
+	.rodape{
+		width: 748px;
+		height: 70px;
+		margin-top: 10px;
+	}
+
+	.rodape .info-rodape {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.rodape .links {
+		display: block;
+		padding: 10px 0;
+	}
+	
+	.link a {
+		color: #1d3cdb;
+	}
+
+	.area-jogo {
+		height: auto;
+		padding: 10px 0;
+	}
+
+	.area-jogo .msg-finalizacao {
+		position: initial;
+		padding: 10px;
+		width: 748px;
+		display: block;
+	}
+
+	.menu button {
+		font-size: 25px;
+		border-color: #1d3cdb;
+	}
+
+	.area-jogo .imagem {
+		position: initial;
+	}
+
+	.area-jogo .letras {
+		position: initial;
+		padding: 10px 0;
+	}
+
+	.area-jogo .alfabeto {
+		display: block;
+		margin-top: 50px;
+		padding: 10px 0;
+	}
+
+	.alfabeto button {
+		font-size: 36px;
+		width: 30px;
+		border-color: #1d3cdb;
+		padding: 0 0;
+	}
+
+	.recomeco button {
+		border-color: #1d3cdb;
+	}
+
+	.area-jogo .add-palavra {
+		position: initial;
+		padding: 10px 0;
+	}
+	.add-palavra .btn-jogar {
+		border-color: #1d3cdb;
+	}
+}
+
+@media screen and (max-width: 426px){
+	body {
+		width: 390px;
+		padding: 10px 10px;
+	}
+	
+	.tela-inicial .p-iniciar {
+		padding-top: 50px;
+	}
+
+	.p-iniciar .botao-iniciar {
+		color: #1d3cdb;
+	}
+
+	.rodape{
+		width: 390px;
+		height: 70px;
+		margin-top: 100px;
+	}
+
+	.rodape .info-rodape {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.rodape .links {
+		display: block;
+		padding: 10px 0;
+	}
+	
+	.link a {
+		color: #1d3cdb;
+	}
+
+	.area-jogo .msg-finalizacao {
+		width: 390px;
+	}
+}
